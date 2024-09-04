@@ -4,12 +4,11 @@ A slow-paced, single-player word game built with JavaScript.
 
 ## Table of Contents
 
-1.	Overview
-2.	Installation
-3.	How to Play
-4.	Features
-5.	Contributing
-6.	License
+1. [Overview](#overview)
+2. [How to Play](#how-to-play)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -23,7 +22,7 @@ A slow-paced, single-player word game built with JavaScript.
 3. When you advance to the next round, you are given the tile of a letter you used most last round, and the tallies are reset.
 
 
-## Controls
+### Controls
 
 - Type a word on the input line in the center of the window. 
 - Press `enter` or `return` to submit the word.
