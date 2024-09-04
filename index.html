@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="https://cdn.glitch.global/37bbce4e-647c-4845-ba88-a1582205fd7f/icon.png?v=1645354850348" />
+
+  <title>Tally</title>
+
+  <!-- Meta tags for SEO and social sharing -->
+  <link rel="canonical" href="" />
+  <meta name="description" content="A word game." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Tally" />
+  <meta property="og:description" content="A word game made with Glitch." />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="stylesheet" href="./style.css" defer />
+
+  <script type="module" src="./scripts/main.js" defer></script>
+
+</head>
+
+<body>
+  <!-- Script is there to prevent firefox from flashing unstyled content [see here](https://stackoverflow.com/questions/21147149/flash-of-unstyled-content-fouc-in-firefox-only-is-ff-slow-renderer) -->
+  <script>0</script>
+  <div id="rules">
+    <p>
+      make words
+    </p>
+    <p>
+      use each tile letter exactly 5 times per round
+    </p>
+    <p>
+      you don’t have to use every tile letter in every word
+    </p>
+    <p>
+      in fact, you don’t have to use any of them
+    </p>
+    <p>
+      you'll get a tile of last round's most used letter next
+    </p>
+    <p>
+      by <a target="_blank" href="https://sammcvicker.com">Sam</a>
+    </p>
+  </div>
+  <h1>
+    Tally
+  </h1>
+  <button id="help" class="out">
+    ?
+  </button>
+  <h2>
+    Round 1
+  </h2>
+  <div id="letters"></div>
+  <p id="feedback"></p>
+  <input>
+  <div id="bar"></div>
+  <!--   world list adapted from WordNet   -->
+  <!--   WordNet Release 3.0 This software and database is being provided to you, the LICENSEE, by Princeton University under the following license. By obtaining, using and/or copying this software and database, you agree that you have read, understood, and will comply with these terms and conditions.: Permission to use, copy, modify and distribute this software and database and its documentation for any purpose and without fee or royalty is hereby granted, provided that you agree to comply with the following copyright notice and statements, including the disclaimer, and that the same appear on ALL copies of the software, database and documentation, including modifications that you make for internal use or for distribution. WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved. THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT- ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. The name of Princeton University or Princeton may not be used in advertising or publicity pertaining to distribution of the software and/or database. Title to copyright in this software, database and any associated documentation shall at all times remain with Princeton University and LICENSEE agrees to preserve same.   -->
+</body>
+
+</html>
