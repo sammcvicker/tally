@@ -30,15 +30,7 @@ A slow-paced, single-player word game built with JavaScript.
 
 ## Contributing
 
-If you want to contribute to the development of **Tally**, follow these steps:
-
-1.	Fork the repository.
-2.	Create a new feature-branch.
-3.	Make your changes and commit them.
-4.	Push to the feature-branch.
-5.	Create a new Pull Request.
-
-I welcome bug reports, suggestions, and contributions!
+If you want to contribute to the development of **Tally**, feel free to create a new feature-branch and put in a pull request!
 
 ## License
 
