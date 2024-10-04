@@ -2,14 +2,6 @@
 
 A slow-paced, single-player word game built with JavaScript.
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [How to Play](#how-to-play)
-3. [Contributing](#contributing)
-4. [License](#license)
-5. [Acknowledgements](#acknowledgements)
-
 ## Overview
 
 **Tally** is a slow-paced, single-player, browser-based word game designed to test your vocabulary and strategy. The player's task is to play yet unplayed words despite increasing restrictions on which letters can and cannot be used.
